@@ -1,0 +1,7 @@
+name: retina
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip:
+    - -r requirements.txt

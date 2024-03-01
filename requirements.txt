@@ -1,0 +1,14 @@
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.8.0+cpu
+torchvision==0.9.0+cpu
+matplotlib==3.5.3
+jupyter==1.0.0
+notebook==7.1.1
+requests==2.31.0
+grad-cam==1.2.9
+Pillow==9.5.0
+opencv-python-headless==4.5.2.52
+scipy==1.7.3
+ttach==0.0.3
+tqdm==4.66.1
+numpy==1.21.6

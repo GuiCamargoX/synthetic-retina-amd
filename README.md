@@ -40,35 +40,28 @@ Before you begin, ensure you have the following installed:
    git clone https://github.com/GuiCamargoX/synthetic-retina-amd.git
    cd synthetic-retina-amd
 
-2. **Create and activate the Conda environment:**
+2. **Downloading Model Weights:**
+
+    Before running the application, download the required model weights for DenseNet, ResNet18, StyleGAN2:
+
+    * [DenseNet Weights](https://drive.google.com/file/d/1KwR0JkdyzidSqYXs2PHpKms6tmBjxuB6/view?usp=sharing)
+
+    * [ResNet18 Weights](https://drive.google.com/file/d/1W2X9EazWNW___ctrfAZ3z9OdMNx40iUw/view?usp=sharing)
+
+    * [StyleGAN2 Weights](https://drive.google.com/file/d/1apgXspWvzfk0NKLsDgnR5K0fGB9MSvB6/view?usp=sharing)
+
+    Place these weights in the specified directory (e.g., **weights/**).
+
+3. **Create Conda environment:**
    
    ```bash
     conda env create -f environment.yml
+
+4. **Activate the Conda environment and Launch Jupyter Notebook:**
+
+   ```bash
     conda activate retina
-
-### Downloading Model Weights
-
-Before running the application, download the required model weights for DenseNet, ResNet18, StyleGAN2:
-
-* [DenseNet Weights](https://drive.google.com/file/d/1KwR0JkdyzidSqYXs2PHpKms6tmBjxuB6/view?usp=sharing)
-
-* [ResNet18 Weights](https://drive.google.com/file/d/1W2X9EazWNW___ctrfAZ3z9OdMNx40iUw/view?usp=sharing)
-
-* [StyleGAN2 Weights](https://drive.google.com/file/d/1apgXspWvzfk0NKLsDgnR5K0fGB9MSvB6/view?usp=sharing)
-
-Place these weights in the specified directory (e.g., **weights/**).
-
-### Set up Jupyter Notebook to use the new environment
-
-**After setting up the environment and downloading the weights, add your Conda environment to Jupyter:**
-    
-    python -m ipykernel install --user --name=retina
-
-
-### Launch Jupyter Notebook:
-- Run `jupyter notebook` in your terminal.
-- In Jupyter, switch to the `retina` kernel when working on the notebooks.
-Now, you can select the Conda environment as a kernel in your Jupyter notebook.
+    jupyter notebook
 
 ## Contributing
 
