@@ -11,7 +11,7 @@ Welcome to our repository dedicated to advancing the field of ophthalmology thro
 
 1. **AMD Classification using ResNet-18**: 
     - **Notebook**: `resnet.ipynb`
-    - **Details**: Utilizes the ResNet-18 architecture, pretrained by Oliveira et al. This model is unique in its training approach, combining both real and synthetic data created by StyleGAN-2. This  method enhances the model's ability to generalize, providing more accurate classifications in the detection of Age-related Macular Degeneration (AMD).
+    - **Details**: Utilizes the ResNet-18 architecture, pretrained by [Oliveira et al.](https://doi.org/10.1016/j.bspc.2024.106263). This model is unique in its training approach, combining both real and synthetic data created by StyleGAN-2. This  method enhances the model's ability to generalize, providing more accurate classifications in the detection of Age-related Macular Degeneration (AMD).
 
 2. **Retinal Image Quality Assessment**:
     - **Notebook**: `eyeq.ipynb`
@@ -19,7 +19,7 @@ Welcome to our repository dedicated to advancing the field of ophthalmology thro
 
 3. **Synthetic Fundus Eye Generation with StyleGAN-2**:
     - **Notebook**: `synthetic.ipynb`
-    - **Details**: Utilizes StyleGAN-2, pretrained by Oliveira et al., to generate synthetic images of the retina fundus. These images depict various stages of age-related macular disease, contributing to the dataset's diversity and aiding in the training of more robust AMD classification models.
+    - **Details**: Utilizes StyleGAN-2, pretrained by [Oliveira et al.](https://doi.org/10.1016/j.bspc.2024.106263), to generate synthetic images of the retina fundus. These images depict various stages of age-related macular disease, contributing to the dataset's diversity and aiding in the training of more robust AMD classification models.
 
 ## Getting Started
 
@@ -75,9 +75,11 @@ This project is licensed under the MIT License.
 
 ## Reference
 
-If you use this dataset and code, please cite the following papers:
+If you use this code, please cite the following papers:
 
-1.Huazhu Fu, Boyang Wang, Jianbing Shen, Shanshan Cui, Yanwu Xu, Jiang Liu, Ling Shao, "Evaluation of Retinal Image Quality Assessment Networks in Different Color-spaces", in MICCAI, 2019.
+1. Oliveira, G. C., Rosa, G. H., Pedronette, D. C., Papa, J. P., Kumar, H., Passos, L. A., & Kumar, D. (2024). Robust deep learning for eye fundus images: Bridging real and synthetic data for enhancing generalization. Biomedical Signal Processing and Control, 94, 106263.
+
+2. Fu, H., Wang, B., Shen, J., Cui, S., Xu, Y., Liu, J., Shao, L., (2019). Evaluation of Retinal Image Quality Assessment Networks in Different Color-Spaces. In: Shen, D., et al. Medical Image Computing and Computer Assisted Intervention – MICCAI 2019. MICCAI 2019. Lecture Notes in Computer Science(), vol 11764. Springer
 
 ## Acknowledgement
 
